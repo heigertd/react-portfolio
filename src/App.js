@@ -6,13 +6,18 @@ import Contact from "./pages/Contact"
 
 const styles = {
   app: {
-    width: '100%'
-  }
+    width: '90%',
+    display:'flex',
+    flexDirection: 'column',
+    justifyContent: 'center'
+  },
+
 }
 
 function App() {
   return (
     <div style = {styles.app}>
+      
       <Home />
       <About />
       <Portfolio />

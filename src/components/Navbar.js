@@ -4,7 +4,7 @@ import Tabs from "./Tab"
 const styles = {
     navbar: {
         display: 'flex',
-        justifyContent: 'space-evenly',
+        justifyContent: 'space-evenly'
     }
 }
 

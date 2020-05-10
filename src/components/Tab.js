@@ -2,8 +2,12 @@ import React from 'react';
 
 const styles ={
     tab: {
-        border: '5px solid black',
-        padding: '0px 10px'
+        border: '2px solid black',
+        borderRadius: '5px',
+        padding: '0px 10px',
+        display: 'flex',
+        alignItems: 'center',
+        textAlign: 'center'
     }
 }
 

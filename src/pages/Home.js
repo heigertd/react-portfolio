@@ -2,7 +2,7 @@ import React from 'react';
 
 const styles = {
     home: {
-        height: '100vh',
+        // height: '100vh',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center'

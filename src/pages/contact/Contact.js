@@ -1,15 +1,11 @@
 import React from 'react'
+import './Contact.css'
 
 
-const styles = {
-    contact: {
-        height: '100vh',
-    }
-}
 
 function Contact() {
     return (
-        <div style = {styles.contact}>
+        <div className = 'contact'>
             <p>Contact</p>
         </div>
     )

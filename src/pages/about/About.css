@@ -1,0 +1,40 @@
+.about-img {
+    width:90%;
+    height: auto;
+    border-radius: 25px 
+}
+
+.about-text{
+    text-align: center;
+    width: 90%
+}
+
+@media only screen and (min-width: 768px) {
+    .about{
+        height: 100vh;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .about-img{
+        height: 70%;
+        width: auto;
+        /* justify-content: center; */
+    }
+
+    .me{
+        width:33%;
+        /* display: flex; */
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+
+    .experience{
+        width: 60%;
+        height: 100%
+    }
+
+    .experience-title{
+        text-align: center;
+    }
+}

@@ -1,0 +1,20 @@
+.portfolio{
+    background-color: rgb(233, 231, 219) 
+}
+
+.portfolio-title{
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 768px){
+    .portfolio {
+        height: 100vh
+    }
+
+    .project-row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}

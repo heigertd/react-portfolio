@@ -10,7 +10,8 @@ const styles = {
     width: '100%',
     display:'flex',
     flexDirection: 'column',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    fontFamily: 'Ubuntu, sans-serif'
   },
 
 }
@@ -22,7 +23,7 @@ function App() {
       <Home />
       <About />
       <Portfolio />
-      {/* <Contact /> */}
+      <Contact />
     </div>
   );
 }

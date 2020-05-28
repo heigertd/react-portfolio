@@ -6,9 +6,9 @@ function Experience(props) {
     return (
         <div className='experience-container'>
                 <div className = 'experience-tech'>
-                    <p>{props.tech}</p>
+                    <p style={{color: '#2BAE66FF'}}>{props.tech}</p>
                 </div>
-                <div style= {{border: '2px solid black',
+                <div style= {{border: '2px solid #2BAE66FF',
                             width:`${perc}`,
                             backgroundImage: `linear-gradient(to right, rgba(255,0,0,1), rgba(255,0,0,1))`}} >
                 </div>   

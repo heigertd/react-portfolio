@@ -1,5 +1,7 @@
 /* @import '../../../node_modules/sal.js/dist/sal.css'; */
-
+.icons-div{
+    display: flex;
+}
 .about-img {
     width:90%;
     height: auto;
@@ -7,15 +9,21 @@
 }
 
 .about-text{
+    display: flex;
     text-align: center;
-    /* width: */
-    padding: 0px 20px;
-    color: #2BAE66FF
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    /* margin:0; */
+    width:33%
+    /* padding: 0px 20px; */
+    /* color: #2BAE66FF */
 }
 
 .experience{
-    padding-left: 20px;
-    margin-bottom: 10px;
+    /* height:20%; */
+    /* padding-left: 20px; */
+    /* margin-bottom: 10px; */
 }
 
 .experience-title{
@@ -26,29 +34,30 @@
 @media only screen and (min-width: 769px) {
     .about{
         height: 100vh;
-        display: flex;
-        flex-direction: row-reverse;
+        /* display: flex; */
+        /* flex-direction: row-reverse; */
     }
 
     .about-img{
-        height: 70%;
+        height: 100%;
         width: auto;
-        padding-left:20% ;
+        /* padding-left:20% ; */
         /* justify-items: center; */
     }
 
     .me{
-        width:33%;
-        /* display: flex; */
-        flex-direction: column;
-        /* justify-content: center; */
-        margin-right: 5%;
+        height: 70%;
+        /* width:33%; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* margin-right: 5%; */
     }
 
     .experience{
         width: 60%;
         /* padding-left: 1px; */
-        height: 100%
+        /* height: 100% */
     }
 
     /* .experience-title{

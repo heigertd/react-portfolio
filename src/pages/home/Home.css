@@ -10,9 +10,12 @@
 
 .home-text{
     text-align: center;
-    color: white
+    color: white;
+    --sal-duration: 2s 
     
 }
+
+@import '../../../node_modules/sal.js/dist/sal.css';
 
 @media only screen and (min-width: 768px){
     .home {

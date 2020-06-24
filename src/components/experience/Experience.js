@@ -1,17 +1,24 @@
 import React from 'react'
+import {useEffect} from 'react'
 import './Experience.css'
+import sal from 'sal.js';
+
 
 function Experience(props) {
+
+    useEffect(() => {
+        sal({
+            threshold: 1,
+            once: false,
+        
+        });
+    }, [])
+
     let perc = props.perc
     return (
-        <div className='experience-container'>
-                <div className = 'experience-tech'>
-                    <p style={{color: '#2BAE66FF'}}>{props.tech}</p>
-                </div>
-                <div style= {{border: '2px solid #2BAE66FF',
-                            width:`${perc}`,
-                            backgroundImage: `linear-gradient(to right, rgba(255,0,0,1), rgba(255,0,0,1))`}} >
-                </div>   
+        <div data-sal = 'slide-left' className='experience-tech'>
+            <img src = {props.icon} />  
+            <p>{props.tech}</p> 
         </div>
     )
 }

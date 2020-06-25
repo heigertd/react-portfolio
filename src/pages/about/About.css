@@ -51,7 +51,7 @@
         /* width:33%; */
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
         /* margin-right: 5%; */
     }
 
@@ -73,6 +73,13 @@
         font-size: large; 
         /* padding: 0px 20px; */
         /* color: #2BAE66FF */
+    }
+
+    .icons-div{
+        display: flex;
+        /* justify-content: space-between;
+        flex-wrap: wrap; */
+        width: 100vw;
     }
 
 }

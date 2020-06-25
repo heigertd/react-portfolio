@@ -9,6 +9,7 @@ function Project4() {
                 <img className='project-img' src = {require (`../../images/Screenshot (22).png`)} alt = "profile"/>
             </div>
             <div className ='project-text'>
+                <p><strong>Timed Quiz</strong></p>
                 <p><strong>Technologies Used:</strong> CSS HTML Javascript</p>
                 <p>Front-end project where you can take a quick timed quiz. Results are saved to local stoarge and you can see how you compare to other scores saved.</p>
                 <div className = 'project-link'>

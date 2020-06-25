@@ -1,12 +1,25 @@
-/* .experience-container{
-    display:flex;
+.experience-container{
     margin: 5px;
-    box-shadow: 2px 5px 10px black
-} */
+}
 
-/* .experience-tech{
+.experience-tech{
     text-align: center;
-    width:35%;
-    border: 2px solid black;
-    border-radius: 10px 0px 0px 10px
-} */
+    width:25%;
+    color: white;
+    --sal-duration: 1s;
+}
+
+.experience-tech:hover{
+   transform: scale(1.1);
+   color: black;
+}
+@import '../../../node_modules/sal.js/dist/sal.css';
+
+@media only screen and (min-width: 769px) {
+    .experience-tech{
+        text-align: center;
+        width:15%;
+        color: white;
+        --sal-duration: 1s;
+    }
+}

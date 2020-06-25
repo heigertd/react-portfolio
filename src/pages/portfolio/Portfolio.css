@@ -1,13 +1,13 @@
 .portfolio{
-    background-color: #2BAE66FF 
+    background-color: #7389AE 
 }
 
 .portfolio-title{
     text-align: center;
-    color:white
+    color:#E8EDDF
 }
 
-
+@import '../../../node_modules/sal.js/dist/sal.css';
 @media only screen and (min-width: 768px){
     /* .portfolio {
         height: 100vh
@@ -17,5 +17,6 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        --sal-duration: 1s;
     }
 }

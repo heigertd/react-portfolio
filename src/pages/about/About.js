@@ -1,17 +1,27 @@
 import React from 'react';
+import {useEffect} from 'react';
 import Navbar from "../../components/navbar/Navbar";
 import Experience from "../../components/experience/Experience";
+import sal from 'sal.js';
 import './About.css'
 
 
 
 function About() {
+
+    useEffect(() => {
+        sal({
+            threshold: .25,
+            once: false,
+        
+        });
+    }, [])
     
     return (
     <div className = 'about'>
             <div className = 'me'>
-                <img  className = 'about-img' src ={ require("../../images/transparent-pic.png")} alt="me"/>
-                <p className = 'about-text'>So who is this guy? I am a Seattle-based web developer. I started web development after a friend of mine showed me a web site he had built by himself. The process intrigued me and I started teaching myself some basic coding with some help from some friends. Eventually I decided I needed some more structured training and eventually recieved my full-stack certification through the University of Washington.</p>
+                <img data-sal = 'fade' className = 'about-img' src ={ require("../../images/transparent-pic.png")} alt="me"/>
+                <p data-sal = 'fade' className = 'about-text'>So who is this guy? I am a Seattle-based web developer. I started web development after a friend of mine showed me a web site he had built by himself. The process intrigued me and I started teaching myself some basic coding with some help from some friends. Eventually I decided I needed some more structured training and eventually recieved my full-stack certification through the University of Washington.</p>
             </div>
             <div>
                 <h1 className = 'experience-title'><u>Experience</u></h1>

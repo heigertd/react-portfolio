@@ -17,8 +17,8 @@ function Home() {
 
     return (
         <div  className = 'home'>
-            <h1 data-sal = 'slide-left'  className='home-text'>Devin Heigert</h1>
-            <h3 data-sal = 'slide-left' className = 'home-text'>Seattle-based Full-stack Developer</h3>
+            <h1 data-sal = 'fade'  className='home-text'>Devin Heigert</h1>
+            <h3 data-sal = 'fade' className = 'home-text'>Seattle-based Full-stack Developer</h3>
         </div>
     )
 }

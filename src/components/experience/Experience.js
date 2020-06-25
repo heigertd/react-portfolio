@@ -16,7 +16,7 @@ function Experience(props) {
 
     let perc = props.perc
     return (
-        <div data-sal = 'slide-left' className='experience-tech'>
+        <div data-sal = 'fade' className='experience-tech'>
             <img src = {props.icon} />  
             <p>{props.tech}</p> 
         </div>

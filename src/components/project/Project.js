@@ -1,14 +1,25 @@
 import React from 'react'
+import {useEffect} from 'react'
+import sal from 'sal.js'
 import './Project.css'
 
 function Project() {
+
+    useEffect(() => {
+        sal({
+            threshold: .25,
+            once: false,
+        
+        });
+    }, [])
     
     return (
-        <div className = 'project-card'>
+        <div  className = 'project-card'>
             <div>
                 <img className='project-img' src = {require (`../../images/Mody.png`)} alt = "profile"/>
             </div>
             <div className ='project-text'>
+                <p><strong>MODY</strong></p>
                 <p><strong>Technologies Used:</strong> CSS HTML Node/Express</p>
                 <p>Team project where a user can create tournament style brackets and interact with brackets other users have created.</p>
                 <div className = 'project-link'>

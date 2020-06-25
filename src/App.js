@@ -7,7 +7,7 @@ import Contact from "./pages/contact/Contact"
 const styles = {
   app: {
     // margin: '0px 100px', 
-    width: '100%',
+    width: '100vw',
     display:'flex',
     flexDirection: 'column',
     justifyContent: 'center',

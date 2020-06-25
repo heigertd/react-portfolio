@@ -1,3 +1,10 @@
+/* @import '../../../node_modules/sal.js/dist/sal.css'; */
+.icons-div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100vw;
+}
 .about-img {
     width:90%;
     height: auto;
@@ -5,36 +12,69 @@
 }
 
 .about-text{
+    display: flex;
     text-align: center;
-    width: 90%
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    color: #7389AE;
+    /* margin:0; */
+    width:100%;
+    font-size: large; 
+    /* padding: 0px 20px; */
+    /* color: #2BAE66FF */
 }
 
-@media only screen and (min-width: 768px) {
+
+.experience-title{
+    text-align: center;
+    color:#7389AE
+}
+
+@media only screen and (min-width: 769px) {
     .about{
         height: 100vh;
-        display: flex;
-        flex-direction: row-reverse;
+        /* display: flex; */
+        /* flex-direction: row-reverse; */
     }
 
     .about-img{
-        height: 70%;
+        height: 100%;
         width: auto;
-        /* justify-content: center; */
+        --sal-duration: 1s;
+        /* padding-left:20% ; */
+        /* justify-items: center; */
     }
 
     .me{
-        width:33%;
-        /* display: flex; */
-        flex-direction: column;
-        /* justify-content: center; */
+        height: 70%;
+        /* width:33%; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin-right: 5%; */
     }
 
     .experience{
         width: 60%;
-        height: 100%
+        /* padding-left: 1px; */
+        /* height: 100% */
     }
 
-    .experience-title{
+    .about-text{
+        display: flex;
         text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 50%;
+        color: #7389AE;
+        /* margin:0; */
+        width:33%;
+        font-size: large; 
+        /* padding: 0px 20px; */
+        /* color: #2BAE66FF */
     }
+
 }
+@import '../../../node_modules/sal.js/dist/sal.css';
+

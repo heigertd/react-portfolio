@@ -1,34 +1,20 @@
-import React from 'react'
-import {useEffect} from 'react'
-import sal from 'sal.js'
+import React from 'react';
 import './Project.css'
 
-function Project() {
-
-    useEffect(() => {
-        sal({
-            threshold: .25,
-            once: false,
-        
-        });
-    }, [])
-    
+export default function Project(props) {
     return (
-        <div  className = 'project-card'>
-            <div>
-                <img className='project-img' src = {require (`../../images/Mody.png`)} alt = "profile"/>
+        <div className = 'project-div'>
+            <h3>{props.title}</h3>
+            <div className = 'img-div'>
+                <img className = 'pimg' src={props.img} />
+                <div className = 'techs-div'>Technology used: {props.tech}</div>
             </div>
-            <div className ='project-text'>
-                <p><strong>MODY</strong></p>
-                <p><strong>Technologies Used:</strong> CSS HTML Node/Express</p>
-                <p>Team project where a user can create tournament style brackets and interact with brackets other users have created.</p>
-                <div className = 'project-link'>
-                    <a href="https://github.com/meganjacobs97/MODY">Github Repo</a>
-                    <a href="https://modybrackets.herokuapp.com/">Deployed Site</a>
-                </div>
+            <div className = 'text-div'>
+                <p>{props.description}</p>
+            </div>
+            <div>
+                <a href = {props.depolyedSite} target="_blank">Deployed Site</a>
             </div>
         </div>
     )
 }
-
-export default Project;

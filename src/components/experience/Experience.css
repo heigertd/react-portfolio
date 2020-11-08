@@ -1,25 +1,12 @@
-.experience-container{
-    margin: 5px;
-}
-
-.experience-tech{
+.experience-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    /* width:25%; */
-    color: white;
-    --sal-duration: 1s;
+    color: rgb(33, 219, 204);
 }
 
-.experience-tech:hover{
-   transform: scale(1.1);
-   color: black;
-}
-@import '../../../node_modules/sal.js/dist/sal.css';
-
-@media only screen and (min-width: 769px) {
-    .experience-tech{
-        text-align: center;
-        width:14%;
-        color: white;
-        --sal-duration: 1s;
-    }
-}
+.experience-div:hover{
+    transform: scale(1.1);
+    color: black;
+ }

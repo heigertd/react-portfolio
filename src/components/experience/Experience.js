@@ -1,25 +1,11 @@
-import React from 'react'
-import {useEffect} from 'react'
+import React from 'react';
 import './Experience.css'
-import sal from 'sal.js';
 
-
-function Experience(props) {
-
-    useEffect(() => {
-        sal({
-            threshold: 1,
-            once: false,
-        
-        });
-    }, [])
-
-    let perc = props.perc
+export default function Experience(props) {
     return (
-        <div data-sal = 'fade' className='experience-tech'>
-            <img src = {props.icon} />  
-            <p>{props.tech}</p> 
+        <div className = 'experience-div'>
+            <img src={props.image} />
+            <p>{props.title}</p>
         </div>
     )
 }
-export default Experience;

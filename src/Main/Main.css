@@ -10,7 +10,9 @@
     font-size: xx-large;
 }
 
-button{
+.section-title{
+    text-align: center;
+    align-content: center;
     background: none;
     border: none;
     font-size: xx-large;
@@ -19,7 +21,7 @@ button{
     font-family: 'Source Code Pro', monospace;
 }
 
-button:hover{
+.section-title:hover{
     color: rgb(221, 112, 108);
 }
 
@@ -29,15 +31,11 @@ button:hover{
     overflow-x: hidden;
 }
 
-.hidden-text{
-    max-height: 0;
-    overflow: hidden;
-}
 
 .main-content{
     display: flex;
     justify-content: space-around;
-    min-height:70vh;
+    height:70vh;
     width: 99vw;
 }
 
@@ -65,68 +63,10 @@ button:hover{
     transition:flex 0.5s ease-out;
 }
 
-.img-div{
-    flex: 0 1 auto;
-    margin: 5px;
-    text-align: center;
-}
-
-.text-div{
-    flex: 0 1 45%;
-    margin: 5px;
-    
-}
-
-.button-div{
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    background: rgb(221, 112, 108);
-    border-bottom: 4px black solid;
-    border-radius: 6px 6px 0px 0px;
-}
-
-.content-div{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    height: 100%;
-    width: 100%;
-}
-
-.contact{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-
-.xp-div{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.expanded{
-    flex: 3 1 100%;
-    margin: 0;
-    transition:flex 0.75s ease-in;
-}
-
 .shrink{
     flex: 0.2;
 }
 
-.hidden{
-    display: none;
-}
-
-.projects{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
 
 @media only screen and (max-width: 480px){
     .main-content{

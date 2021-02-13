@@ -4,7 +4,7 @@ import FakeCoffee from '../../images/Screenshot (63).png';
 import Sav from '../../images/Screenshot (51).png';
 import Misbach from '../../images/Screenshot (62).png';
 import data from '../../data.js';
-import Project from '../../Components/Project/Project';
+import Project from '../../Components/Project/Projects';
 
 export default function Portfolio() {
     return (

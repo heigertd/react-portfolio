@@ -9,8 +9,7 @@ export default function About() {
     return (
         <div className = 'about-section'>
             <div className = 'about-title-div'>
-                <div className = 'about-color-block'></div>
-                <h1>About Avenue</h1>
+                <h1>About</h1>
             </div>
             <div className = 'about-content-div'>
                 <div className = 'text-div'>

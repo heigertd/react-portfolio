@@ -10,7 +10,6 @@ export default function Portfolio() {
     return (
     <div className = 'portfolio-section'>
         <div className = 'about-title-div'>
-                <div className = 'about-color-block'></div>
                 <h1>Portfolio Place</h1>
             </div>
         <div className = 'portfolio-content-div'>

@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    color: rgb(138, 230, 222);
+    color: rgba(138, 230, 222, 0);
 }
 
 .experience-div:hover{

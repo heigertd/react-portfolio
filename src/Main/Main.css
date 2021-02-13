@@ -1,71 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-
 .name-div{
     margin: 0;
     width: 100vw;
     text-align: center;
-    color: white; 
-    font-family: 'Righteous', cursive;
+    color: var(--highlight-color); 
+    font-family: var(--title-font);
     font-size: xx-large;
 }
 
 .section-title{
-    text-align: center;
-    align-content: center;
-    background: none;
-    border: none;
-    font-size: xx-large;
-    color: black;
-    height: 50%;
-    font-family: 'Source Code Pro', monospace;
-}
-
-.section-title:hover{
-    color: rgb(221, 112, 108);
+    font-family: var(--sub-title);
+    color: var(--highlight-color); 
 }
 
 
 .all-div{
     height: 100vh;
     overflow-x: hidden;
-}
 
-
-.main-content{
-    display: flex;
-    justify-content: space-around;
-    height:70vh;
-    width: 99vw;
-}
-
-.unhidden{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
-.color-block{
-    height: 25%;
-    background: rgb(221, 112, 108);
-    border-radius: 6px 6px 0px 0px;
-    border-bottom: 4px black solid; 
-}
-
-.box1, .box2, .box3{
-    display: flex;
-    flex: 1 1 100%;
-    margin: 0 5px;
-    border: 4px black solid;
-    border-radius: 10px;
-    z-index:0;
-    background: rgb(33, 219, 204);
-    transition:flex 0.5s ease-out;
-}
-
-.shrink{
-    flex: 0.2;
-}
 
 
 @media only screen and (max-width: 480px){

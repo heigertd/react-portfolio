@@ -1,3 +1,8 @@
+.about-section{
+    margin: 50px;
+    background-color: rgb(138, 230, 222);
+}
+
 .about-title-div{
     display: flex;
     flex-direction: row;
@@ -32,8 +37,12 @@ h1{
     
 }
 
+.xp-section{
+    padding: 10px;
+}
+
 .xp-div{
-    width: 98vw;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;

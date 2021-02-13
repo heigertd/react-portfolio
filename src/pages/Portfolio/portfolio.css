@@ -1,5 +1,10 @@
-.content-div{
+.portfolio-section{
+    margin: 50px;
+}
+
+.portfolio-content-div{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
@@ -7,4 +12,7 @@
     height: 100%;
     width: 100%;
     background-color: rgb(138, 230, 222);
+    /* background-color: white; */
+
+    
 }

@@ -7,7 +7,7 @@ import Me from '../../images/imageedit_3_6701281239.png';
 
 export default function About() {
     return (
-        <div>
+        <div className = 'about-section'>
             <div className = 'about-title-div'>
                 <div className = 'about-color-block'></div>
                 <h1>About Avenue</h1>
@@ -19,13 +19,13 @@ export default function About() {
                 <div className = 'img-div'>
                     <img className = 'me' src={Me} />
                 </div>
-                <div>
-                    <h3>Experience</h3>
-                    <div className = 'xp-div'>
-                        {data[0].xp.map(element => { 
-                            return <Experience image = {element.image} title = {element.title} />
-                        })} 
-                    </div>
+            </div>
+            <div className = 'xp-section'>
+                <h3>Experience</h3>
+                <div className = 'xp-div'>
+                    {data[0].xp.map(element => { 
+                        return <Experience image = {element.image} title = {element.title} />
+                    })} 
                 </div>
             </div>
         </div>

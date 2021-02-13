@@ -1,14 +1,17 @@
 .contact{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
 }
 
 .content-div{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     height: 100%;
     width: 100%;
+
+    background-color: white;
 }

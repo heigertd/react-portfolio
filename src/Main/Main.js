@@ -2,14 +2,7 @@ import React, {useState, useEffect} from 'react';
 import Portfolio from '../pages/Portfolio/Portfolio'
 import Contact from '../pages/Contact/Contact'
 import About from '../pages/About/About'
-import Me from '../images/imageedit_3_6701281239.png';
-import Mody from '../images/Mody.png';
-import Sav from '../images/Screenshot (51).png';
-import Mule from '../images/Screenshot (24).png';
-import Social from '../images/social-distance.png';
-import data from '../data.js';
-import Experience from '../Components/Experience/Experience';
-import Project from '../Components/Project/Project';
+
 import './Main.css';
 
 export default function Main() {
@@ -45,7 +38,7 @@ export default function Main() {
             </div>
                 <About />
                 <Portfolio />
-                {/* <Contact /> */}
+                <Contact />
         </div>
     )
 }

@@ -64,3 +64,10 @@
     margin: 5px;
     text-align: center;
 } 
+
+@media only screen and (max-width: 806px){
+    .about-section{
+        width: 96vw;
+        margin: 0;
+    }
+}

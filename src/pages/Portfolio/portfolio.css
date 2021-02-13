@@ -14,3 +14,10 @@
     background-color: var(--highlight-color);
     /* background-color: whitehigh; */  
 }
+
+@media only screen and (max-width: 806px){
+    .portfolio-section{
+        width: 96vw;
+        margin: 20px 0;
+    }
+}

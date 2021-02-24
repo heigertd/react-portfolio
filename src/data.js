@@ -63,6 +63,14 @@ export const data = [
                 depolyedSite: 'https://fake-coffee.vercel.app/'
     
             },
+            {
+                title: 'Wiki Events',
+                description: 'Personal project using the wiki events api. See what happened today, search a specific day and see a heat map of when the most events happen',
+                techs: 'jQuery',
+                img: '../../images/Screenshot (66).png',
+                depolyedSite: 'https://wiki-events.vercel.app/'
+    
+            },
         ]
     },
     {
